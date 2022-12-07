@@ -34,6 +34,7 @@ function HomepageHeader() {
           >
             Get Started
           </Link>
+
         </div>
       </div>
     </header>
@@ -64,7 +65,7 @@ export default function Home() {
             </Stack>
           </Center>
 
-          <Box flex="1" bg="tomato">
+          <Box flex="1" >
             <Image
               src="https://res.cloudinary.com/jeffreymc/image/upload/v1643384297/Perfect%20Game/Marketing%20Photos/PG_Game_52_f0ywkw.jpg"
               alt="Dan Abramov"
@@ -72,9 +73,7 @@ export default function Home() {
             ></Image>
           </Box>
         </Flex>
-        {/* <main>
-          <HomepageFeatures />
-        </main> */}
+        
       </Layout>
     </ChakraProvider>
   );

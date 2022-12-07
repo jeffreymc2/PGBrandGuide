@@ -21,37 +21,14 @@ import {
 import styles from './index.module.css';
 
 
-export default function Home() {
+export default function Intro() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <ChakraProvider>
-      <Layout
-        title={`Hello from ${siteConfig.title}`}
-        description="Description will go into a meta tag in <head />"
-      >
-        {/* <HomepageHeader /> */}
-        <Flex color="white">
-          <Center w="50%" bg="blue.500">
-            <Stack spacing={1}>
-              <Text fontSize="5xl">Perfect Game</Text>
-              <Text fontSize="2xl">2022 Brand Guide</Text>
-              <Text fontSize="xs">Version: 12.7.2022 </Text>
-              <Button colorScheme="white">Get Started</Button>
-            </Stack>
-          </Center>
-
-          <Box flex="1" bg="tomato">
-            <Image
-              src="https://res.cloudinary.com/jeffreymc/image/upload/v1643384297/Perfect%20Game/Marketing%20Photos/PG_Game_52_f0ywkw.jpg"
-              alt="Dan Abramov"
-              objectFit="cover"
-            ></Image>
-          </Box>
-        </Flex>
-        {/* <main>
-          <HomepageFeatures />
-        </main> */}
-      </Layout>
+      <Layout>
+      <h1>My React page</h1>
+      <p>This is a React page</p>
+    </Layout>
     </ChakraProvider>
   );
 }
