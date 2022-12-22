@@ -9,7 +9,6 @@ import {
 } from '@chakra-ui/react'
 
 export default function BasicUsage() {
-  const { isOpen, onOpen, onClose } = useDisclosure()
   
   return (
     <>

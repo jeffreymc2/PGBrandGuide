@@ -13,11 +13,9 @@ We only outlined a few of the more significant ones. Please feel free to contact
 Our brand, color scheme, and contemporary font all contribute to the creation of a distinctive framework that defines Perfect Game.
 
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import BasicUsage from '@site/src/components/Modal';
 
 <main>
 <HomepageFeatures>
   </HomepageFeatures>
-  
 </main>
 
