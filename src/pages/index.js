@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <ChakraProvider>
       <Layout
-        title={`Hello from ${siteConfig.title}`}
+        title={` ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />"
       >
         {/* <HomepageHeader /> */}
@@ -68,7 +68,7 @@ export default function Home() {
           <Box flex="1" >
             <Image
               src="https://res.cloudinary.com/jeffreymc/image/upload/v1643384297/Perfect%20Game/Marketing%20Photos/PG_Game_52_f0ywkw.jpg"
-              alt="Dan Abramov"
+              alt=""
               objectFit="cover"
             ></Image>
           </Box>
